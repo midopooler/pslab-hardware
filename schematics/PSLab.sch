@@ -283,12 +283,12 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG010
 U 1 1 54C819ED
-P 860 1040
-F 0 "#FLG010" H 860 1135 30  0001 C CNN
-F 1 "PWR_FLAG" H 860 1220 30  0000 C CNN
-F 2 "" H 860 1040 60  0000 C CNN
-F 3 "" H 860 1040 60  0000 C CNN
-	1    860  1040
+P 860 895
+F 0 "#FLG010" H 860 990 30  0001 C CNN
+F 1 "PWR_FLAG" H 860 1030 30  0000 C CNN
+F 2 "" H 860 895 60  0000 C CNN
+F 3 "" H 860 895 60  0000 C CNN
+	1    860  895 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2004,7 +2004,7 @@ Wire Wire Line
 Wire Wire Line
 	4605 815  4545 815 
 Wire Wire Line
-	860  1040 860  1140
+	860  895  860  1040
 Connection ~ 860  1440
 Connection ~ 860  1340
 Connection ~ 860  1140
@@ -2412,4 +2412,7 @@ F 3 "" H 8400 1025 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	8900 1025 8700 1025
+Connection ~ 860  1040
+Wire Wire Line
+	860  1040 860  1140
 $EndSCHEMATC
